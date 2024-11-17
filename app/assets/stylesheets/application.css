@@ -1,0 +1,130 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+
+ /* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #F0F2F5;
+    color: #1C1E21;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #1877F2;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo a {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .search input {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  /* Post Styles */
+  .post {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-header h3 {
+    margin: 0;
+  }
+  
+  .post-content {
+    margin-bottom: 10px;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .post-actions button {
+    background-color: #F0F2F5;
+    color: #1C1E21;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .post-actions button:hover {
+    background-color: #E4E6EB;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .sidebar li a {
+    color: #1C1E21;
+    text-decoration: none;
+  }
+  
+  .sidebar li a:hover {
+    color: #1877F2;
+  }
